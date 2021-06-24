@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="IPS BI Prod" uuid="7fe70588-adea-481c-904c-999679d572b7">
+      <driver-ref>sqlserver.jtds</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://IPS-BI-PROD.IPSMERCHANT.LOCAL:1433</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="DOMAIN" value="IPSMerchant" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Payroc Snowflake" uuid="5462379a-632b-4632-a35e-bdd2672cbd1b">
+      <driver-ref>snowflake</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.snowflake.client.jdbc.SnowflakeDriver</jdbc-driver>
+      <jdbc-url>jdbc:snowflake://sp65314.us-east-2.aws.snowflakecomputing.com:443</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="authenticator" value="externalbrowser" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="IPS SQL2" uuid="24ee86e8-496a-4f67-bf0d-daab3e0893b3">
+      <driver-ref>sqlserver.jtds</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://IPS-SQL2.IPSMERCHANT.LOCAL:1433</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="DOMAIN" value="IPSMerchant" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="IPS ELK" uuid="ac5d9eaf-9222-4ccb-86ab-f34fbba7b7ab">
+      <driver-ref>sqlserver.jtds</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://ELK001PRDSQL03.IPSMERCHANT.LOCAL:1433</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="DOMAIN" value="IPSMerchant" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
